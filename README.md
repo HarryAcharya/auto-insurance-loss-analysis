@@ -57,6 +57,30 @@ A mid-size auto insurer's Chief Underwriting Officer needs to know:
 Stress-tested: even in the worst-case scenario (40% retention + non-renewal limited to top 100), improvement still holds at **19.7 points**.
 
 ## Repository Structure
+
+## Repository Structure
+
+```
+auto-insurance-loss-analysis/
+├── README.md
+├── .gitignore
+├── data/
+│   ├── raw/                  (original Kaggle CSVs — gitignored)
+│   └── processed/            (cleaned outputs and Tableau-ready CSVs)
+├── notebooks/
+│   └── 01_data_exploration.ipynb
+├── scripts/
+│   ├── export_segments_for_tableau.py
+│   ├── export_pareto_for_tableau.py
+│   └── export_kpis_for_tableau.py
+├── sql/
+│   └── queries.sql
+├── dashboard/
+│   └── auto_insurance_dashboard.twbx
+└── memo/
+    └── executive_memo.pdf
+```
+
 ## Data Source
 
 This project uses the **French Motor Third-Party Liability (freMTPL2)** dataset. Raw files are not committed to this repo because they exceed GitHub's file size limit.
@@ -77,3 +101,4 @@ Place both CSVs in `data/raw/`, then run the notebook.
 ## Author
 
 **Hari Acharya** — [GitHub](https://github.com/HarryAcharya)
+
