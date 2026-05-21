@@ -56,7 +56,6 @@ A mid-size auto insurer's Chief Underwriting Officer needs to know:
 
 Stress-tested: even in the worst-case scenario (40% retention + non-renewal limited to top 100), improvement still holds at **19.7 points**.
 
-## Repository Structure
 
 ## Repository Structure
 
