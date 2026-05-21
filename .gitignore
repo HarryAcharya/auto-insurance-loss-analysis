@@ -1,0 +1,33 @@
+﻿# Raw data - too large for GitHub
+data/raw/*.csv
+data/raw/*.zip
+
+# Processed full dataset - too large
+data/processed/policies_full.csv
+data/processed/policies_with_premium.csv
+data/processed/insurance.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Tableau backups
+*.twbr
+
+# Misc
+checkpoint.py
+output.txt
